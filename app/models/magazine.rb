@@ -27,7 +27,11 @@ class Magazine
   def find_by_name(name)
     @result = []
 
-    
+    Article.all.each do |article|
+      if (name == article.magazine)
+        @result << article
+      end
+    end
   end
 
   def article_titles
