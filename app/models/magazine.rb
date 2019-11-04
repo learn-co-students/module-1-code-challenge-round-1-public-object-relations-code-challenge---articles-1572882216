@@ -35,7 +35,7 @@ class Magazine
   end
 
   def article_titles
-
+    
   end
 
   def contributing_authors
