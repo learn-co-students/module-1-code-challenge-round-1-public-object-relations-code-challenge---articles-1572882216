@@ -23,6 +23,9 @@ class Magazine
   end
 
 
+  def contributors
+
+  end
 
 
 end
